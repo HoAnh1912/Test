@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MT Shop</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.jpg" />
+
+    <link rel="stylesheet" href="./scss/style.css" />
+    <link rel="stylesheet" href="./scss/style.css.map" />
+  </head>
+  <body>
+    <section class="stores-wrapper">
+      <div class="menu-wrapper">
+        <div class="logo">
+          <a href="./index.html">BURMON</a>
+          <sup>®</sup>
+        </div>
+        <div class="nav-wrapper">
+          <ul class="menu">
+            <li>
+              <a href="./index.html">HOME</a>
+            </li>
+            <li>
+              <a class="btn-product" href="#">PRODUCTS</a>
+              <div id="collection">
+                <a href="./collection.html">ALL COLLECTION</a>
+                <a href="./jogger.html">Jogger</a>
+              </div>
+            </li>
+            <li>
+              <a href="./warranty.html">WARRANTY</a>
+            </li>
+            <li>
+              <a href="./member.html">MEMBER</a>
+            </li>
+            <li>
+              <a href="/stores.html">STORES</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="address-wrapper">
+        <div class="info-address">
+          <h1>258 Phố Huế, Hai Bà Trưng, Hà Nội</h1>
+          <p>HÀ NỘI</p>
+          <p>Contact for work: 096 886 66 80</p>
+        </div>
+        <div class="img-wrapper">
+          <img src="./images/store.jpg" alt="" />
+        </div>
+      </div>
+      <a href="./cart.html" class="cart">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          style="fill: rgb(54, 54, 54)"
+        >
+          <path
+            d="M5 22h14a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1h-3v-.777c0-2.609-1.903-4.945-4.5-5.198A5.005 5.005 0 0 0 7 7v1H4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2zm12-12v2h-2v-2h2zM9 7c0-1.654 1.346-3 3-3s3 1.346 3 3v1H9V7zm-2 3h2v2H7v-2z"
+          ></path>
+        </svg>
+      </a>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="container">
+          <div class="about-block">
+            <h3>ABOUT US</h3>
+            <div class="menu-footer">
+              <ul>
+                <li><a href="#"> GENERAL POLICY </a></li>
+                <li><a href="#"> PRIVACY POLICY </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="info-block">
+            <h3>CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ BURMON</h3>
+            <p>We Create The Trends You Love</p>
+            <p>
+              Hotline: 096 886 66 80 <br />
+              Email: contact@burmon.co <br />
+              Địa chỉ: 258 phố Huế, Hai Bà Trưng, Hà Nội
+            </p>
+            <div class="icon-wrapper">
+              <a
+                href="https://www.lazada.vn/?creation=20-06-2019-REBRANDETA02-VN&exlaz=d_1:mm_150050845_51350203_2010350203::11:16495529661!138019133470!lazada!e!kwd-19342147066!c!!!!621264763833!&gclid=CjwKCAiAuaKfBhBtEiwAht6H72acQqCZNlpxkCqWEcDEKO0Pzk7b2tu8mrng30mP7V0JXxYRLQtjCxoC6VcQAvD_BwE"
+              >
+                <img src="./images/icon-lazada.png" alt="" />
+              </a>
+              <a href="https://tiki.vn/">
+                <img src="./images/icon-tiki.png" alt="" />
+              </a>
+              <a href="https://shopee.vn/">
+                <img src="./images/icon-shopee.png" alt="" />
+              </a>
+              <a href="https://www.tiktok.com/">
+                <img src="./images/icon-tiktok.png" alt="" />
+              </a>
+              <a href="https://www.youtube.com/">
+                <img src="./images/icon-youtube.png" alt="" />
+              </a>
+              <a href="https://www.instagram.com/">
+                <img src="./images/icon-instagram.png" alt="" />
+              </a>
+              <a href="https://www.facebook.com/">
+                <img src="./images/icon-facebook.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // CODE FOR DROPDOWN MENU
+      let menu = document.querySelector("#collection");
+      let btnmenu = document.querySelector(".btn-product");
+      btnmenu.onclick = function () {
+        menu.classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>

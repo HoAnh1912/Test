@@ -1,0 +1,59 @@
+.stores-wrapper {
+  margin-bottom: 1rem;
+  .menu-wrapper {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    a {
+      color: $black-cl;
+      text-decoration: none;
+      display: block;
+    }
+    .logo {
+      letter-spacing: 5px;
+      font-size: 40px;
+      margin-bottom: 40px;
+      font-weight: bold;
+      position: relative;
+      sup {
+        color: $black-cl;
+        position: absolute;
+        top: -20px;
+        right: -30px;
+        font-size: 20px;
+      }
+    }
+    .nav-wrapper {
+      .menu {
+        li {
+          padding: 8px;
+        }
+      }
+    }
+  }
+  .address-wrapper {
+    margin-left: 16%;
+    margin-top: 33px;
+    padding: 0 5rem;
+    .info-address {
+      text-align: center;
+      h1 {
+        font-weight: 700;
+        font-size: 25px;
+      }
+      p {
+        font-size: 18px;
+        &:nth-child(2) {
+          padding: 20px 0;
+        }
+      }
+    }
+    .img-wrapper {
+      margin-top: 2rem;
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+}
